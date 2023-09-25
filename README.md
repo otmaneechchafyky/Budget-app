@@ -14,7 +14,7 @@
 <h1 align="center">Budget Manager</h1>
 
 
-<img width="374" alt="erd_diagram" src="./app/assets/images/budget-diagram.png">
+<img width="374" alt="erd_diagram" src="./app/assets/images/budg.png">
 
 
 </div>
