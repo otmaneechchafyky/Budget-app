@@ -3,5 +3,5 @@ class Transaction < ApplicationRecord
   has_and_belongs_to_many :categories
 
   validates :name, presence: true, length: { minimum: 2, maximum: 100 }
-  validates :icon, presence: true
+  validates :amount, presence: true
 end

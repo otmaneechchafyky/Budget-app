@@ -1,0 +1,7 @@
+<!-- app/views/transactions/new.html.erb -->
+
+<h1>Create a New Transaction for <%= @category.name %></h1>
+
+<%= render 'form' %>
+
+<%= link_to "Back to Transactions", category_transactions_path(@category) %>

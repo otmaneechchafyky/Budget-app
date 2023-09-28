@@ -1,0 +1,15 @@
+<!-- app/views/transactions/_form.html.erb -->
+
+<%= form_with(model: [@category, @transaction], url: category_transactions_path(@category), method: :post) do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :amount %>
+    <%= form.text_field :amount %>
+  </div>
+
+  <%= form.submit "Create Transaction" %>
+<% end %>

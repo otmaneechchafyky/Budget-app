@@ -1,0 +1,15 @@
+<!-- app/views/categories/_form.html.erb -->
+
+<%= form_with(model: @category, url: categories_path, method: :post) do |form| %>
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :icon %>
+    <%= form.text_field :icon %>
+  </div>
+
+  <%= form.submit "Create Category" %>
+<% end %>
