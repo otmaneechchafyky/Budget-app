@@ -81,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://mana-kc48.onrender.com
+- https://mana-jdee.onrender.com
 
 ## Live video demo 
 
