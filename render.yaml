@@ -3,7 +3,7 @@ databases:
     ipAllowList: []
     databaseName: mana
     user: budget_app
-    password: 123456
+    password: budGET
 
 services:
   - type: web
