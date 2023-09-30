@@ -7,13 +7,13 @@ default: &default
 
 development:
   <<: *default
-  database: budget_app_development
+  database: mana
   username: postgres
   password: <%= ENV["BUDGET_APP_DATABASE_PASSWORD"] %>
 
 test:
   <<: *default
-  database: budget_app_test
+  database: mana_test
   username: postgres
   password: <%= ENV["BUDGET_APP_DATABASE_PASSWORD"] %>
   host: localhost
@@ -21,7 +21,7 @@ test:
 
 production:
   <<: *default
-  database: Budget_app_production
+  database: mana_production
   username: postgres
   password: <%= ENV["BUDGET_APP_DATABASE_PASSWORD"] %>
   

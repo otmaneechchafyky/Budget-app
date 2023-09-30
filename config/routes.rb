@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'splash#index'
-
-  resources :categories do
-    resources :transactions
+  devise_for :users
+  resources :groups, path: 'categories', only: [:new, :index, :create] do
+    resources :records, only: [:new, :index, :create]
   end
+  root 'home#index'
 end
