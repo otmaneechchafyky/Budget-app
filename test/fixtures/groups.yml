@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  icon: MyString
-  user: one
+  icon: MyText
 
 two:
   name: MyString
-  icon: MyString
-  user: two
+  icon: MyText
