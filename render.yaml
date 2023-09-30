@@ -2,7 +2,8 @@ databases:
   - name: postgres
     ipAllowList: []
     databaseName: mana
-    user: postgres
+    user: budget_app
+    password: 123456
 
 services:
   - type: web
