@@ -3,11 +3,13 @@ databases:
     ipAllowList: []
     databaseName: budget_app_production
     user: budget_app_production
+    plan: free
 
 services:
   - type: web
     name: mana
     env: ruby
+    plan: free
     buildCommand: "./render-build.sh"
     startCommand: "bundle exec rails s"
     envVars:
